@@ -1,0 +1,82 @@
+.single {
+  padding: 2px 16px;
+  background: #fff;
+  display: block;
+  margin: 20px 10px;
+  border-left: 8px solid #fff;
+  border-radius: 50px;
+}
+
+.single:hover {
+  border-left: 8px solid #ffc6ff;
+  border-right: 8px solid #9bf6ff;
+}
+
+.cocktail {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 50rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .cocktail {
+    width: auto;
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .cocktail {
+    width: auto;
+  }
+}
+
+.cocktailsDetail {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.ingredients {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.cocktailImg {
+  width: 400px;
+  height: auto;
+  border-radius: 50px;
+}
+
+@media only screen and (max-width: 768px) {
+  .cocktailImg {
+    width: 350px;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .cocktailImg {
+    width: 300px;
+  }
+}
+
+.cocktailList {
+  margin-bottom: -5px;
+}
+.details,
+.cockIns {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+}
+.cocktailName {
+  text-align: center;
+  width: 100%;
+}
